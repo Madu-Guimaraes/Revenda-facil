@@ -1,0 +1,174 @@
+.WelcomeContainer{
+    margin-bottom: 6%;
+}
+
+.homeContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2em;
+    border-radius: 20px 0 0 20px;
+}
+
+.containerDashboard {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dashboard {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    grid-gap: 20px; /* Espaçamento entre os cards */
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #d9d9d9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.calendarContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Alinha o calendário à direita */
+    width: 50%;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.5); /* Fundo transparente */
+    border-radius: 10px;
+    padding: 20px;
+    width: 320px; /* Largura fixa para o calendário */
+    margin-left: 20px;
+}
+
+.calendarHeader {
+    font-size: 1.5em;
+    color: #9643BB; /* Cor das datas */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendarGrid { 
+    display: grid; 
+    grid-template-columns: repeat(7, 1fr); /* 7 colunas para os dias da semana */ 
+    margin-top: 10px; 
+
+}
+
+.calendarCell { 
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    text-align: center; 
+    cursor: pointer; 
+}
+
+.calendarCell { 
+    background-color: #f0f0f0; /* Cor de destaque ao passar o mouse */ 
+}
+
+.card h3,
+.card p {
+    color: #9643BB;
+    margin-bottom: 3%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.legendModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    pointer-events: auto;
+}
+
+.legendContent {
+    background-color: #9643BB;
+    color: #fff;
+    padding: 2em;
+    line-height: 1.6em;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    position: relative;
+}
+
+.closeButton {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.clientListScrollable {
+    max-height: 150px;
+    overflow-y: auto;
+    list-style: none;
+    margin-bottom: 1em;
+    line-height: 1.4;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.red {
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.yellow {
+    color: #ffff00;
+    cursor: pointer;
+}
+
+.legendLink {
+    cursor: pointer;
+    color: #fff;
+    background-color: #9643BB;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.3em;
+}
+
+.linkText,
+.card {
+    color: #9643BB;
+    text-decoration: none;
+}
+
+.datePickerContainer {
+    margin: 1.5em 0;
+}
+
+.customDatePicker {
+    border: 2px solid #717568;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
