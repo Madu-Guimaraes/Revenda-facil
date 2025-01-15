@@ -1,0 +1,131 @@
+.myCustomersContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #9643BB;
+}
+
+.myCustomersContainer select {
+    height: 2em;
+    width: auto;
+    border-radius: 5px;
+    border: 2px solid #ccc; /* Cor padrão da borda */
+    transition: border-color 0.3s; /* Transição suave para a cor da borda */
+}
+
+.myCustomersContainer select:focus {
+    border-color: #9643BB; /* Cor da borda quando ativo */
+    outline: none; /* Remove o contorno padrão do browser */
+}
+
+.filterContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos da legenda */
+.legendModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.legendContent {
+    background-color: #a557c7;
+    color: #fff;
+    padding: 2em;
+    line-height: 1.6em;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    position: relative;
+}
+
+.legendLink {
+    cursor: pointer;
+    color: #fff;
+    background-color: #9643BB;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.3em;
+    margin-left: 2em;
+}
+
+.closeButton {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.clientList {
+    cursor: pointer;
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+}
+
+.clientList p {
+    color: #8F8F8F;
+    margin: 0;
+}
+
+.clientItem {
+    background: rgba(255, 255, 255, 0.568);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.clientItem:hover {
+    background-color: #f1f1f1;
+}
+
+.clientItem.red {
+    background-color: #ffe6e6; 
+}
+
+.clientItem.red:hover {
+    background-color: #ffcccc; 
+}
+
+.clientItem.orange {
+    background-color: #fff5e6; 
+}
+
+.clientItem.orange:hover {
+    background-color: #ffe6cc; 
+}
+
+.clientItem p {
+    margin: 5px 0 0 0;
+}

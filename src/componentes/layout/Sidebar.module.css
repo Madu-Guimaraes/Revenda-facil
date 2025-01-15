@@ -1,5 +1,5 @@
 .logo {
-    width: 100%;
+    width: 80%;
     height: auto;
     margin: 0 auto;
     display: block; 
@@ -31,14 +31,15 @@
     border-radius: 4px;
 }
 
-.item a:hover {
+.item a:hover,
+.icon:hover {
     color: #25064D;
 }
 
 .socialMedia {
     display: flex;
     justify-content: center;
-    margin: 10em 0 1em 0;
+    margin: 14em 0 1em 0;
 }
 
 .icon {
@@ -46,11 +47,6 @@
     font-size: 26px;
     margin: 0 10px;
 }
-
-.icon:hover {
-    color: #25064D;
-}
-
 
 .copyright {
     text-align: center;

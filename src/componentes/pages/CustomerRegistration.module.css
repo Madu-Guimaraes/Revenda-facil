@@ -1,0 +1,13 @@
+.newCustomerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+.newCustomerContainer h1 {
+    margin-bottom: 0.5em;
+    color: #9643BB;
+}

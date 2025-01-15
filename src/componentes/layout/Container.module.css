@@ -7,8 +7,12 @@
 }
 
 .min-height {
-    min-height: 90%;
-    background-color: #D0BCD5;
+    min-height: 100%;
+    width: 100%;
+    background-color: #D9C5DF;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 .start {

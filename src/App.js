@@ -8,7 +8,7 @@ import Trash from './componentes/pages/Trash';
 import Account from './componentes/pages/Account';
 import CustomerHistory from './componentes/pages/CustomerHistory';
 
-import Container from "./componentes/layout/Container"; // Deixe apenas essa importação
+import Container from "./componentes/layout/Container";
 import Sidebar from './componentes/layout/Sidebar';
 
 import './index.css';
